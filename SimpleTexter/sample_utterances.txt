@@ -1,0 +1,4 @@
+SayHelloIntent tell {textTo} hello
+SayHelloIntent please greet {textTo}
+SayHelloIntent greet {textTo}
+SayHelloIntent ahoy ahoy {textTo}

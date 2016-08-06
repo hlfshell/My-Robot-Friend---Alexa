@@ -1,0 +1,13 @@
+{
+	"intents": [
+		{
+			"intent": "SayHelloIntent",
+			"slots": [
+				{
+					"name": "textTo",
+					"type": "AMAZON.US_FIRST_NAME"
+				}
+			]
+		}
+	]
+}

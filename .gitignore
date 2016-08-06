@@ -3,3 +3,5 @@
 *node_modules/*
 *npm-debug.log*
 *Thumbs.db*
+SimpleTexter/node_modules/*
+SimpleTexter/auth.json

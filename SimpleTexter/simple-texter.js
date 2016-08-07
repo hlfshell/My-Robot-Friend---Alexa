@@ -16,7 +16,7 @@ app.use(function(req, res){
 	console.log(req.body);
 	twilio.sendMessage(
 		{
-			to: numbers[req.body.intent.slots.textTo.value],
+			to: numbers[req.body.intent.slots.textTo.value.toLowerCase()],
 			from: auth.fromPhone,
 			body: "Hi there " + req.body.request.intent.slots.textTo.value + "!"
 		},

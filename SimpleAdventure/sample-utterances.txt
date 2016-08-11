@@ -1,3 +1,0 @@
-InitIntent
-
-AdventureIntent {choice}
